@@ -1,0 +1,126 @@
+.header {
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.855);
+}
+.header1 {
+    font-family:'Arial';
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+}
+.header2 {
+    font-family: 'Arial';
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px 30px 20px;
+}
+.mostpart{
+    
+    overflow: hidden;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.midlepart{
+    background-color: rgba(219, 216, 216, 0.855);
+}
+.h2-style{
+    font-family:'Arial';
+    text-align: center;
+    margin-bottom: 0;
+}
+.h2-style-ad{
+    font-family:'Arial';
+    text-align: left;
+    margin-bottom: 0;
+}
+.h3-style{
+    font-family:'Arial';
+    text-align: center;
+    font-size: small;
+}
+
+.p-style{
+    font-family:'Arial';
+    text-align: left;
+}
+.ul-stylemain{
+    font-family:'Arial';
+    text-align: center;
+    display: table;
+    list-style-position: outside;
+    margin: 0 auto 0 auto;
+}
+.ul-img{
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} 
+.ul-img-item{
+    flex-basis: 300px;
+    margin: 0px auto 20px auto;
+    font-family:'Arial';
+    text-align: left;
+    list-style-position:outside;
+    padding: 20px;
+    border: 1px solid gray;
+    text-shadow: 1px 1px 2px rgb(200, 200, 200);
+    font-style: italic;
+}  
+.ul-reviews{
+    padding-right: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}   
+.ul-reviews-item{
+    flex-basis: 300px;
+    margin: 0px auto 20px auto;
+    font-family:'Arial';
+    text-align: center;
+    list-style-position:outside;
+    padding: 20px;
+    border: 1px solid gray;
+    text-shadow: 1px 1px 2px rgb(200, 200, 200);
+    font-style: italic;
+}
+table{
+    border-collapse: collapse;
+}
+TD, TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+.navbar-item{
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+.nav-link-idle{
+    font-family:'Arial';
+    text-align: center;
+    color:rgb(125, 34, 34);
+    text-decoration: none;
+    
+}
+
+
+
+.adress-contacts{
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 247, 247);
+    text-align: center;
+    background-color: rgba(7, 7, 7, 0.855);
+}
+.a-footer-contacts{
+    display: block;
+    color: rgb(150, 150, 150);
+}
+

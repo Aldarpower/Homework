@@ -1,12 +1,16 @@
 .header {
     background-size: 100%;
+    max-width: 1000px;
     width: 100%;
+    overflow: hidden;
     height: auto;
+    margin: 0 auto;
     color: rgb(255, 255, 255);
     text-align: center;
     background-color: rgba(0, 0, 0, 0.855);
 }
 .header1 {
+    font-size: 120%;
     font-family:'Arial';
     padding: 30px 20px 0px 20px;
     text-align: center;
@@ -20,7 +24,7 @@
 .mostpart{
     
     overflow: hidden;
-    min-height: 100vh;
+    min-height: auto;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -30,6 +34,7 @@
     background-color: rgba(219, 216, 216, 0.855);
 }
 .h2-style{
+    
     font-family:'Arial';
     text-align: center;
     margin-bottom: 0;
@@ -51,29 +56,42 @@
 }
 .ul-stylemain{
     font-family:'Arial';
-    text-align: center;
+    text-align: left;
     display: table;
     list-style-position: outside;
     margin: 0 auto 0 auto;
 }
+.img{
+    flex-shrink: 1;
+    max-width: 300px;
+    width:100%;
+    max-height: 300px;
+    height: 100%;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 .ul-img{
+    list-style-type: none; 
     padding-right: 30px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 } 
 .ul-img-item{
+    flex-shrink: 2;
     flex-basis: 300px;
     margin: 0px auto 20px auto;
     font-family:'Arial';
     text-align: left;
     list-style-position:outside;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid gray;
     text-shadow: 1px 1px 2px rgb(200, 200, 200);
     font-style: italic;
 }  
 .ul-reviews{
+    list-style-type: none; 
     padding-right: 30px;
     flex-wrap: wrap;
     flex-direction: row;
@@ -89,12 +107,23 @@
     text-shadow: 1px 1px 2px rgb(200, 200, 200);
     font-style: italic;
 }
+.table-wrap {
+    overflow-x:auto;
+    text-align:left;
+    display: inline-block;
+    color: #000;
+   
+  }
 table{
+    overflow-x:auto;
+    margin:0;
+    padding:0;
     border-collapse: collapse;
+    border-spacing: 0;
 }
 TD, TH {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid black; /* Параметры рамки */
+    padding: 3px; 
+    border: 1px solid black; 
    }
 .navbar-item{
     display: inline-block;
@@ -112,6 +141,10 @@ TD, TH {
 
 
 .adress-contacts{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    overflow: hidden;
     background-size: 100%;
     width: 100%;
     height: auto;
